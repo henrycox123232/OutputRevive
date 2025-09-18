@@ -50,8 +50,8 @@ module.exports = class ResetOutput {
         // --- Add custom image ---
         let img = document.createElement("img");
         img.src = "https://files.catbox.moe/ymoncl.png"; // Change this URL or use base64
-        img.style.width = "44px";
-        img.style.height = "44px";
+        img.style.width = "22px";
+        img.style.height = "22px";
         img.style.objectFit = "contain";
         img.style.pointerEvents = "none"; // so clicks still hit the button
 
@@ -92,3 +92,4 @@ module.exports = class ResetOutput {
     }
 
 };
+
