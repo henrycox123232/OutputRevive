@@ -49,7 +49,7 @@ module.exports = class ResetOutput {
 
         // --- Add custom image ---
         let img = document.createElement("img");
-        img.src = "https://files.catbox.moe/t7g5f8.png"; // Change this URL or use base64
+        img.src = "https://files.catbox.moe/ymoncl.png"; // Change this URL or use base64
         img.style.width = "44px";
         img.style.height = "44px";
         img.style.objectFit = "contain";
@@ -90,4 +90,5 @@ module.exports = class ResetOutput {
         let resetBtn = document.querySelector("#resetOutputBtn");
         if (resetBtn) resetBtn.remove();
     }
+
 };
